@@ -1,0 +1,12 @@
+[Unit]
+Description=Mini4wd Sensor Agent
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/npm --cwd /home/root/mraatest start
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target

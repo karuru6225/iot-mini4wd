@@ -1,0 +1,7 @@
+node_modules
+*~
+.*.swp
+npm-debug.log
+nohup.out
+dist
+src/config.js
